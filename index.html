@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -26,10 +26,25 @@
         -ms-overflow-style: none; /* IE and Edge */
         scrollbar-width: none; /* Firefox */
       }
+      #toTopBtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 50%; /* Make it round */
+            padding: 20px 20px;
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
     </style>
   </head>
-  <body>
+  <body >
+   
     <!-- navbar -->
+
     <nav
       class="flex flex-wrap items-center justify-between w-full py-4 md:py-0 px-4 text-lg text-gray-700 bg-white"
     >
@@ -61,35 +76,37 @@
           class="pt-4 text-base text-gray-700 md:flex md:justify-between md:pt-0"
         >
           <li>
-            <a class="md:p-4 py-2 block hover:text-purple-400" href="#"
-              >Features</a
+            <a class="md:p-4 py-2 block hover:text-purple-400" href="#HargaPaket"
+              >harga paket</a
             >
           </li>
           <li>
-            <a class="md:p-4 py-2 block hover:text-purple-400" href="#"
-              >Pricing</a
+            <a class="md:p-4 py-2 block hover:text-purple-400" href="#Combo"
+              >Combo Internet + TV</a
             >
           </li>
           <li>
-            <a class="md:p-4 py-2 block hover:text-purple-400" href="#"
-              >Customers</a
+            <a class="md:p-4 py-2 block hover:text-purple-400" href="#aoi"
+              >Ads on internet</a
             >
           </li>
           <li>
-            <a class="md:p-4 py-2 block hover:text-purple-400" href="#">Blog</a>
+            <a class="md:p-4 py-2 block hover:text-purple-400" href="#aot">Ads on Tv</a>
           </li>
           <li>
             <a
               class="md:p-4 py-2 block hover:text-purple-400 text-purple-500"
-              href="#"
-              >Sign Up</a
+              href="https://wa.me/6287761460470?text=mau pesan dan pasang wifi"
+              >Hubungi kami(fast respon)</a
             >
           </li>
         </ul>
       </div>
     </nav>
-    <!-- navbar -->
+
     <!-- caraousel -->
+     <!-- navbar -->
+   
     <div id="default-carousel" class="relative w-full" data-carousel="slide">
       <!-- Carousel wrapper -->
       <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
@@ -317,7 +334,7 @@
 
           <!-- Text Section -->
           <div class="lg:py-24 md:w-full">
-            <h2 class="text-3xl font-bold sm:text-4xl">
+            <h2 class="text-md font-bold s:text-4xl">
               Nikmati <span class="text-blue-600">#WifiTerbaik</span> Fiber
               Ultra Cepat dan Unlimited
             </h2>
@@ -372,7 +389,7 @@
           <div
             class="mx-auto text-center lg:mx-0 ltr:lg:text-left rtl:lg:text-right"
           >
-            <h2 class="text-3xl font-bold sm:text-4xl text-white text-left">
+            <h2 class="text-md font-bold sm:txt-4xl text-white text-left">
               Cara Berlangganan di MyRepublic
             </h2>
 
@@ -418,8 +435,10 @@
                   Cek area lokasi pemasangan, pilih paket, dan pilih jadwal
                   pemasangan.
                 </span>
-                <button
-                  class="flex items-center bg-white text-black px-2 py-2 mt-4 rounded-lg text-sm font-bold"
+                <a
+
+                href="https://wa.me/6287761460470?text=mau%20pasang%20WIFINYA%20dong"
+                  class="flex items-center bg-white text-black px-2 py-2 mt-4 w-1/2 rounded-lg text-sm font-bold"
                 >
                   Registrasi Sekarang
                   <svg
@@ -436,7 +455,7 @@
                       d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
                     />
                   </svg>
-                </button>
+                </a>
               </div>
               <div
                 class="paidcontainer max-[960px]:w-[40%] max-[960px]:min-w-[260px]"
@@ -472,7 +491,9 @@
                 >
                   Lacak proses instalasi kemudian nikmati layanan MyRepublic!
                 </span>
-                <button
+                <a
+
+                href="https://wa.me/6287761460470?text=mau%20install%20WIFI%20dirumah%20saya"
                   class="flex items-center bg-white text-black px-2 py-2 mt-4 rounded-lg text-sm font-bold"
                 >
                   Lacak proses pesananmu
@@ -490,7 +511,7 @@
                       d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
                     />
                   </svg>
-                </button>
+                </a>
               </div>
               <div
                 class="paidcontainer max-[960px]:w-[40%] max-[960px]:min-w-[260px]"
@@ -526,8 +547,8 @@
                 >
                   Bayar tagihan dan nikmati kecepatan layanan MyRepublic.
                 </span>
-                <button
-                  class="flex items-center bg-white text-black px-2 py-2 mt-4 rounded-lg text-sm font-bold"
+                <a  href="https://wa.me/6287761460470?text=mau%20bayar%20tagihan%20WIFI%20dirumah%20saya"
+                  class="flex items-center bg-white text-black px-2 py-2 mt-4 w-1/2 rounded-lg text-sm font-bold"
                 >
                   Lihat cara bayar
                   <svg
@@ -544,7 +565,7 @@
                       d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25"
                     />
                   </svg>
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -555,7 +576,7 @@
 
     <!-- pricing -->
     <section>
-      <div class="bg-[#672B82] mt-28">
+      <div class="bg-[#672B82] mt-28" id="HargaPaket">
         <div
           class="container flex flex-col items-center px-4 py-16 pb-24 mx-auto text-center lg:pb-56 md:py-32 md:px-10 lg:px-32 "
         >
@@ -596,7 +617,7 @@
                   
                     <p class="mt-5 sm:mt-4">
                       <strong
-                        class="text-3xl font-bold text-gray-900 sm:text-4xl"
+                        class="text-md font-bold text-gray-900 m:text-4xl"
                       >
                       <span class="text-xl ">Rp</span>
                       <span class="">231.757</span>    
@@ -609,10 +630,10 @@
                         <span class="text-xs ">Harga&nbsp;belum&nbsp;termasuk&nbsp;PPN&nbsp;11%</span>
                       </div>
                     </p>
-
+                
                     <a
                       class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                      href="https://wa.me/6289643127714?text=mau%20pesan%20value30%20dong"
+                      href="https://wa.me/6287761460470?text=mau%20pesan%20value30%20dong"
                     >
                     chat sales
                     </a>
@@ -708,7 +729,7 @@
                 
                   <p class="mt-5 sm:mt-4">
                     <strong
-                      class="text-3xl font-bold text-gray-900 sm:text-4xl"
+                      class="text-md font-bold text-gray-900 m:text-4xl"
                     >
                     <span class="text-xl ">Rp</span>
                     <span class="">306.757</span>    
@@ -724,7 +745,7 @@
                 </div>
                   <a
                     class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                    href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+                    href="https://wa.me/6287761460470?text=mau%20pesan%20Fast 50%20"
                   >
                   chat sales
                   </a>
@@ -821,7 +842,7 @@
               
                 <p class="mt-5 sm:mt-4">
                   <strong
-                    class="text-3xl font-bold text-gray-900 sm:text-4xl"
+                    class="text-md font-bold text-gray-900 m:text-4xl"
                   >
                   <span class="text-xl ">Rp</span>
                   <span class="">479.730</span>    
@@ -837,7 +858,7 @@
 
                 <a
                   class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                  href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+                  href="https://wa.me/6287761460470?text=mau%20pesan%20Nova 100%20dong"
                 >
                 chat sales
                 </a>
@@ -956,7 +977,7 @@
               
                 <p class="mt-5 sm:mt-4">
                   <strong
-                    class="text-3xl font-bold text-gray-900 sm:text-4xl"
+                    class="text-md font-bold text-gray-900 m:text-4xl"
                   >
                   <span class="text-xl ">Rp</span>
                   <span class="">562.163</span>    
@@ -969,7 +990,7 @@
 
                 <a
                   class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                  href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+                  href="https://wa.me/6287761460470?text=mau%20pesan%20MyGamer 250%20dong"
                 >
                 chat sales
                 </a>
@@ -1093,7 +1114,7 @@
 
 
 <!-- combo internet tv -->
-    <h1 class="font-bold text-4xl text-center">Combo Internet + TV</h1>
+    <h1 class="font-bold md:text-4xl text-xl text-center" id="Combo">Combo Internet + TV</h1>
     <div class="w-5/6 mx-auto rounded-lg ">
       <section class="py-20">
         <div class="container px-4 mx-auto">
@@ -1119,7 +1140,7 @@
                 
                   <p class="mt-5 sm:mt-4">
                     <strong
-                      class="text-3xl font-bold text-gray-900 sm:text-4xl"
+                      class="text-md font-bold text-gray-900 m:text-4xl"
                     >
                     <span class="text-xl ">Rp</span>
                     <span class="">291.892</span>    
@@ -1135,7 +1156,7 @@
 
                   <a
                     class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                    href="https://wa.me/6289643127714?text=mau%20pesan%20value30%20dong"
+                    href="https://wa.me/6287761460470?text=mau%20pesan%20value30 yang combo%20dong"
                   >
                   chat sales
                   </a>
@@ -1235,7 +1256,7 @@
               
                 <p class="mt-5 sm:mt-4">
                   <strong
-                    class="text-3xl font-bold text-gray-900 sm:text-4xl"
+                    class="text-md font-bold text-gray-900 m:text-4xl"
                   >
                   <span class="text-xl ">Rp</span>
                   <span class="">381.757</span>    
@@ -1251,7 +1272,7 @@
               </div>
                 <a
                   class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                  href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+                  href="https://wa.me/6287761460470?text=mau%20pesan%20Fast 50 yang combo%20dong"
                 >
                 chat sales
                 </a>
@@ -1352,7 +1373,7 @@
             
               <p class="mt-5 sm:mt-4">
                 <strong
-                  class="text-3xl font-bold text-gray-900 sm:text-4xl"
+                  class="text-md font-bold text-gray-900 m:text-4xl"
                 >
                 <span class="text-xl ">Rp</span>
                 <span class="">554.730</span>    
@@ -1368,7 +1389,7 @@
 
               <a
                 class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+                href="https://wa.me/6287761460470?text=mau%20pesan%20Nova 100 yang combo%20dong"
               >
               chat sales
               </a>
@@ -1490,7 +1511,7 @@
             
               <p class="mt-5 sm:mt-4">
                 <strong
-                  class="text-3xl font-bold text-gray-900 sm:text-4xl"
+                  class="text-md font-bold text-gray-900 m:text-4xl"
                 >
                 <span class="text-xl ">Rp</span>
                 <span class="">622.163</span>    
@@ -1503,7 +1524,7 @@
 
               <a
                 class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+                href="https://wa.me/6287761460470?text=mau%20pesan%20MyGamer 250 yang combo%20dong"
               >
               chat sales
               </a>
@@ -1630,7 +1651,7 @@
 
 
     <!-- ads on -->
-    <h1 class="font-bold text-4xl text-center">Ads on internet</h1>
+    <h1 class="font-bold text-4xl text-center" id="api">Ads on internet</h1>
     <div class="w-5/6 mx-auto rounded-lg ">
       <section class="py-20">
         <div class="container px-4 mx-auto">
@@ -1654,7 +1675,7 @@
               </h2>
               <p class="mt-5 sm:mt-4">
                 <strong
-                  class="text-3xl font-bold text-gray-900 sm:text-4xl"
+                  class="text-md font-bold text-gray-900 m:text-4xl"
                 >
                 <span class="text-xl ">Rp</span>
                 <span class="text-4xl">13.636</span>    
@@ -1668,7 +1689,7 @@
                 <span class="text-xs mb-4 mt-2">Wi-Fi single band 2,4 GHz</span>
               <a
                 class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+                href="https://wa.me/6287761460470?text=mau%20pesan%Router plus%20dong"
               >
               chat sales
               </a>
@@ -1695,7 +1716,7 @@
               </h2>
               <p class="mt-5 sm:mt-4">
                 <strong
-                  class="text-3xl font-bold text-gray-900 sm:text-4xl"
+                  class="text-md font-bold text-gray-900 m:text-4xl"
                 >
                 <span class="text-xl ">Rp</span>
                 <span class="text-4xl">25.000</span>    
@@ -1709,7 +1730,7 @@
                 <span class="text-xs mb-4 mt-2">Akses perangkat dari manapun</span>
               <a
                 class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+                href="https://wa.me/6287761460470?text=mau%20pesan%Ip public static v4%20dong"
               >
               chat sales
               </a>
@@ -1736,7 +1757,7 @@
               </h2>
               <p class="mt-5 sm:mt-4">
                 <strong
-                  class="text-3xl font-bold text-gray-900 sm:text-4xl"
+                  class="text-md font-bold text-gray-900 m:text-4xl"
                 >
                 <span class="text-xl ">Rp</span>
                 <span class="text-4xl">40.000</span>    
@@ -1750,7 +1771,7 @@
                 <span class="text-xs mb-4 mt-2">Wi-Fi single band 2,4 dan 5 GHz</span>
               <a
                 class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+                href="https://wa.me/6287761460470?text=mau%20pesan%20Mau pesan router pro%20dong"
               >
               chat sales
               </a>
@@ -1777,7 +1798,7 @@
               </h2>
               <p class="mt-5 sm:mt-4">
                 <strong
-                  class="text-3xl font-bold text-gray-900 sm:text-4xl"
+                  class="text-md font-bold text-gray-900 m:text-4xl"
                 >
                 <span class="text-xl ">Rp</span>
                 <span class="text-4xl">80.000</span>    
@@ -1791,7 +1812,7 @@
                 <span class="text-xs mb-4 mt-2">Sinyal mulus disemua ruangan</span>
               <a
                 class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+                href="https://wa.me/6287761460470?text=mau%20pesan%20Mau pesan magic wifi%20dong"
               >
               chat sales
               </a>
@@ -1809,15 +1830,15 @@
     </div>
     <!-- ads on -->
      <!-- ads on -->
-     <h1 class="font-bold text-4xl text-center">Ads on Tv</h1>
-     <div class="w-5/6 mx-auto rounded-lg ">
+     <h1 class="font-bold text-4xl text-center" id="aot">Ads on Tv</h1>
+     <div class=" mx-auto rounded-lg ">
        <section class="py-20">
          <div class="container px-4 mx-auto">
            <div
              class="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16"
            >
              <div
-               class="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-4 md:gap-8"
+               class="grid grid-cols-1 gap-4 sm:grid-cols-2  md:grid-cols-4 md:gap-8"
              >
              <!--  -->
              <div
@@ -1834,7 +1855,7 @@
                </h2>
                <p class="mt-5 sm:mt-4">
                  <strong
-                   class="text-3xl font-bold text-gray-900 sm:text-4xl"
+                   class="text-md font-bold text-gray-900 m:text-4xl"
                  >
                  <span class="text-xl ">Rp</span>
                  <span class="text-4xl">15.000</span>    
@@ -1847,37 +1868,40 @@
                <div class="">
                  <span class="text-xs mb-4 mt-2">Sudah termasuk dipaket Value30 Keatas</span>
                  <div class="mt-4 flex-initial flex overflow-x-auto overflow-y-visible py-2 rounded-lg bg-gray-200 border border-gray-200">
-                  <div class="flex-initial  min-w-[40px] min-h-[40px] bg-base-white rounded-md overflow-hidden">
-                    <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                  <div class="flex-initial  mx-4 relative group min-w-[40px] min-h-[40px] bg-base-white rounded-md overflow-hidden">
+                    <div class="absolute  flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                       <div class="bg-gray-800 text-white px-2 py-1 rounded-md text-sm z-40">
-                        Rock Entertainment
+                        ROCK EXTREME
+
                       </div>
                     </div>
-                    <img src="./images/icon/Rock_entertainment_1b328877ee.webp" >
+                    <img src="./images/icon/Rock_extreme_abd8a40978.webp" class="object-contain w-full h-full" >
                   </div>
-                
-                  <div class="mx-4 relative group">
-                    <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+                  
+           
+                 <div class="flex-initial  mx-4 relative group min-w-[40px] min-h-[40px] bg-base-white rounded-md overflow-hidden">
+                    <div class="absolute  flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                       <div class="bg-gray-800 text-white px-2 py-1 rounded-md text-sm z-40">
-                        Rock Extreme
+                       ROCK ENTERTAIMENT
                       </div>
                     </div>
-                    <img src="./images/icon/Rock_extreme_abd8a40978.webp" >
+                    <img src="./images/icon/Rock_entertainment_1b328877ee.webp" class="object-contain w-full h-full" >
                   </div>
-                
-                  <div class="mx-4 relative group">
-                    <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+           
+                 <div class="flex-initial  mx-4 relative group min-w-[40px] min-h-[40px] bg-base-white rounded-md overflow-hidden">
+                    <div class="absolute  flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
                       <div class="bg-gray-800 text-white px-2 py-1 rounded-md text-sm z-40">
-                        Lifetime
+                      LIFETIME
                       </div>
                     </div>
-                    <img src="./images/icon/Lifetime_31e97f30b1.webp" >
-                  </div>
-                </div>
+                    <img src="./images/icon/Lifetime_31e97f30b1.webp" class="object-contain w-full h-full" >
+                  </div>  
+              </div>
+              
                 
                <a
                  class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                 href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+                 href="https://wa.me/6287761460470?text=mau%20pesan%20Tv entertaiment%20dong"
                >
                chat sales
                </a>
@@ -1906,7 +1930,7 @@
     </h2>
     <p class="mt-5 sm:mt-4">
       <strong
-        class="text-3xl font-bold text-gray-900 sm:text-4xl"
+        class="text-md font-bold text-gray-900 m:text-4xl"
       >
       <span class="text-xl ">Rp</span>
       <span class="text-4xl">15.000</span>    
@@ -1921,7 +1945,7 @@
       <div class="mt-4 flex-initial flex overflow-x-auto overflow-y-visible py-2 rounded-lg bg-gray-200 border border-gray-200">
       <div class="flex-initial  mx-4 relative group min-w-[40px] min-h-[40px] bg-base-white rounded-md overflow-hidden">
         <div>
-         <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+         <div class="absolute  flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
            <div class="bg-gray-800 text-white px-2 py-1 rounded-md text-sm z-40">
              Love Nature
            </div>
@@ -1933,7 +1957,7 @@
        
        
       <div class="flex-initial  mx-4 relative group min-w-[40px] min-h-[40px] bg-base-white rounded-md overflow-hidden">
-         <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+         <div class="absolute  flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
            <div class="bg-gray-800 text-white px-2 py-1 rounded-md text-sm z-40">
             AFN
            </div>
@@ -1943,7 +1967,7 @@
        
 
       <div class="flex-initial  mx-4 relative group min-w-[40px] min-h-[40px] bg-base-white rounded-md overflow-hidden">
-         <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+         <div class="absolute  flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
            <div class="bg-gray-800 text-white px-2 py-1 rounded-md text-sm z-40">
             Hgtv
            </div>
@@ -1952,7 +1976,7 @@
        </div>
 
       <div class="flex-initial  mx-4 relative group min-w-[40px] min-h-[40px] bg-base-white rounded-md overflow-hidden">
-         <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+         <div class="absolute  flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
            <div class="bg-gray-800 text-white px-2 py-1 rounded-md text-sm z-40">
             BBC LIFESTYLE
            </div>
@@ -1966,7 +1990,7 @@
      
     <a
       class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-      href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+      href="https://wa.me/6287761460470?text=mau%20pesan%20Tv Knowledge and lifestyle%20dong"
     >
     chat sales
     </a>
@@ -1991,7 +2015,7 @@
    </h2>
    <p class="mt-5 sm:mt-4">
      <strong
-       class="text-3xl font-bold text-gray-900 sm:text-4xl"
+       class="text-md font-bold text-gray-900 m:text-4xl"
      >
      <span class="text-xl ">Rp</span>
      <span class="text-4xl">20.000</span>    
@@ -2004,37 +2028,41 @@
    <div class="">
      <span class="text-xs mb-4 mt-2">Sudah termasuk dipaket FAST50 Keatas</span>
      <div class="mt-4 flex-initial flex overflow-x-auto overflow-y-visible py-2 rounded-lg bg-gray-200 border border-gray-200">
-      <div class="flex-initial  min-w-[40px] min-h-[40px] bg-base-white rounded-md overflow-hidden">
-        <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-          <div class="bg-gray-800 text-white px-2 py-1 rounded-md text-sm z-40">
-            Galaxy premium
-          </div>
-        </div>
-        <img src="./images/icon/Galaxy_Premium_04e0bd6529.webp" >
-      </div>
-    
-      <div class="mx-4 relative group">
-        <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-          <div class="bg-gray-800 text-white px-2 py-1 rounded-md text-sm z-40">
+      
+       
+      <div class="flex-initial  mx-4 relative group min-w-[40px] min-h-[40px] bg-base-white rounded-md overflow-hidden">
+         <div class="absolute  flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+           <div class="bg-gray-800 text-white px-2 py-1 rounded-md text-sm z-40">
+            GALAXY PREMIUM
+           </div>
+         </div>
+         <img src="./images/icon/Galaxy_Premium_04e0bd6529.webp" class="object-contain w-full h-full" >
+       </div>
+       
+
+      <div class="flex-initial  mx-4 relative group min-w-[40px] min-h-[40px] bg-base-white rounded-md overflow-hidden">
+         <div class="absolute  flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+           <div class="bg-gray-800 text-white px-2 py-1 rounded-md text-sm z-40">
             IMC
-          </div>
-        </div>
-        <img src="./images/icon/IMC_4718090740.webp" >
-      </div>
-    
-      <div class="mx-4 relative group">
-        <div class="absolute top-0 left-0 w-full h-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-          <div class="bg-gray-800 text-white px-2 py-1 rounded-md text-sm z-40">
-            Zeebioskop
-          </div>
-        </div>
-        <img src="./images/icon/Zeebioskop_58ee5ec547.webp" >
-      </div>
+           </div>
+         </div>
+         <img src="./images/icon/IMC_4718090740.webp" class="object-contain w-full h-full" >
+       </div>
+
+      <div class="flex-initial  mx-4 relative group min-w-[40px] min-h-[40px] bg-base-white rounded-md overflow-hidden">
+         <div class="absolute  flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
+           <div class="bg-gray-800 text-white px-2 py-1 rounded-md text-sm z-40">
+           ZEEBIOSKOP
+           </div>
+         </div>
+         <img src="./images/icon/Zeebioskop_58ee5ec547.webp" class="object-contain w-full h-full" >
+       </div>
+       
     </div>
     
    <a
      class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-     href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+     href="https://wa.me/6287761460470?text=mau%20pesan%20Tv Movies%20dong"
    >
    chat sales
    </a>
@@ -2082,7 +2110,7 @@
         
           <p class="mt-5 sm:mt-4">
             <strong
-              class="text-3xl font-bold text-gray-900 sm:text-4xl"
+              class="text-md font-bold text-gray-900 m:text-4xl"
             >
             <span class="text-xl ">Rp</span>
             <span class="">19.000</span>    
@@ -2094,7 +2122,7 @@
           
           </p>
           <a class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                  href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+          href="https://wa.me/6287761460470?text=mau%20pesan%20ads on tv GENFLIX 1 BULAN%20dong"
                 >
                 chat sales
                 </a>
@@ -2124,7 +2152,7 @@
         
           <p class="mt-5 sm:mt-4">
             <strong
-              class="text-3xl font-bold text-gray-900 sm:text-4xl"
+              class="text-md font-bold text-gray-900 m:text-4xl"
             >
             <span class="text-xl ">Rp</span>
             <span class="">30.000</span>    
@@ -2137,7 +2165,7 @@
             <span class="text-xs ">Premium + Sport</span>
           </p>
           <a class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                  href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+          href="https://wa.me/6287761460470?text=mau%20pesan%20ads on tv Vision plus 1 bulan%20dong"
                 >
                 chat sales
                 </a>
@@ -2167,7 +2195,7 @@
         
           <p class="mt-5 sm:mt-4">
             <strong
-              class="text-3xl font-bold text-gray-900 sm:text-4xl"
+              class="text-md font-bold text-gray-900 m:text-4xl"
             >
             <span class="text-xl ">Rp</span>
             <span class="">49.000</span>    
@@ -2179,7 +2207,7 @@
           
           </p>
           <a class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                  href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+          href="https://wa.me/6287761460470?text=mau%20pesan%20ads on tv GENFLIX 3 BULAN%20dong"
                 >
                 chat sales
                 </a>
@@ -2209,7 +2237,7 @@
         
           <p class="mt-5 sm:mt-4">
             <strong
-              class="text-3xl font-bold text-gray-900 sm:text-4xl"
+              class="text-md font-bold text-gray-900 m:text-4xl"
             >
             <span class="text-xl ">Rp</span>
             <span class="">78.000</span>    
@@ -2221,7 +2249,7 @@
           
           </p>
           <a class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                  href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+          href="https://wa.me/6287761460470?text=mau%20pesan%20ads on tv VIDIO DIAMOND%20dong"
                 >
                 chat sales
                 </a>
@@ -2251,7 +2279,7 @@
         
           <p class="mt-5 sm:mt-4">
             <strong
-              class="text-3xl font-bold text-gray-900 sm:text-4xl"
+              class="text-md font-bold text-gray-900 m:text-4xl"
             >
             <span class="text-xl ">Rp</span>
             <span class="">99.000</span>    
@@ -2263,7 +2291,7 @@
           
           </p>
           <a class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                  href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+          href="https://wa.me/6287761460470?text=mau%20pesan%20ads on tv GENFLIX 12 BULAN%20dong"
                 >
                 chat sales
                 </a>
@@ -2293,7 +2321,7 @@
         
           <p class="mt-5 sm:mt-4">
             <strong
-              class="text-3xl font-bold text-gray-900 sm:text-4xl"
+              class="text-md font-bold text-gray-900 m:text-4xl"
             >
             <span class="text-xl ">Rp</span>
             <span class="">150.000</span>    
@@ -2306,7 +2334,7 @@
           </p>
           <span class="text-xs ">Premium + Sport</span>
           <a class="mt-4 block rounded border border-indigo-600 bg-indigo-600 px-12 py-3 text-center text-sm font-medium text-white hover:bg-transparent hover:text-indigo-600 focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
-                  href="https://wa.me/6285710186845?text=Ini%20sales%20a"
+          href="https://wa.me/6287761460470?text=mau%20pesan%20ads on tv VISION PLUS 12 BULAN%20dong"
                 >
                 chat sales
                 </a>
@@ -2320,14 +2348,40 @@
     </div>
         </section>
       <!-- ads on -->
-    <script>
-      const button = document.querySelector("#menu-button");
-      const menu = document.querySelector("#menu");
+      <button id="toTopBtn" class="focus:outline-none" onclick="scrollToTop()"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 6.75 12 3m0 0 3.75 3.75M12 3v18" />
+      </svg>
+      </button>
+      <script>
+        const button = document.querySelector("#menu-button");
+        const menu = document.querySelector("#menu");
+  
+        button.addEventListener("click", () => {
+          menu.classList.toggle("hidden");
+        });
 
-      button.addEventListener("click", () => {
-        menu.classList.toggle("hidden");
-      });
-    </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
-  </body>
+            // Get the button
+    var mybutton = document.getElementById("toTopBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function () {
+    scrollFunction();
+};
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+    } else {
+        mybutton.style.display = "none";
+    }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function scrollToTop() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+}
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+      </body>
 </html>
